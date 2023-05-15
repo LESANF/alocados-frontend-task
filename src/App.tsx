@@ -1,18 +1,14 @@
 import React from "react";
 import styled from "styled-components";
-
-const TestComponent = styled.div`
-  background-color: peru;
-  width: 300px;
-  height: 300px;
-`;
-
-const handleClick = (a: number) => {
-  alert(a);
-};
+import { AppProvider } from "./providers/app";
+import { AppRoutes } from "./routes";
 
 const App = () => {
-  return <TestComponent onClick={() => handleClick(1)}>Hello World!</TestComponent>;
+  return (
+    <AppProvider>
+      <AppRoutes />
+    </AppProvider>
+  );
 };
 
 export default App;
