@@ -4,3 +4,8 @@
   font-weight: normal;
   src: url("./pretendard/Pretendard-Regular.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./poppins/Poppins-Regular.ttf") format("truetype");
+}

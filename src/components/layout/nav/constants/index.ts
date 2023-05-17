@@ -1,4 +1,4 @@
-import { INavTags } from "@/interfaces";
+import { INavTags } from "@/guard/interfaces";
 
 export const NAV_TAGS: INavTags[] = [
   { name: "환전하기", path: "/" },

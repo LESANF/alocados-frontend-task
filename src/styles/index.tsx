@@ -11,6 +11,10 @@ const GlobalStyles = createGlobalStyle`
     *{
         box-sizing: border-box;
     }
+
+    select::-ms-expand { 
+	    display: none;
+    }
 `;
 
 export default GlobalStyles;
